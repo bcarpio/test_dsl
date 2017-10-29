@@ -8,7 +8,7 @@ pipeline {
     stage('Dev: HelloWorld') {
       steps {
          script{
-           u.HelloWold('Brian is Amazing')
+           u.helloworld('Brian is Amazing')
          }
       }
     }
